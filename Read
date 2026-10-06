@@ -1,0 +1,7 @@
+Export your logs from the imperva dam console and this tool will help you classify it ,
+
+Export the output as a report and upload.
+- Input: A CSV or Excel file containing Account Name, DB Name, Priv. Type, Obj. Type, and Object Name.
+- Processing: Groups permissions into an account/database/privilege/object hierarchy, then creates summaries by account and privilege type, and by database and object type.
+- Output: An .xlsx workbook with three sheets: Detailed_Hierarchy, Account_Priv_Summary, and DB_Object_Summary.
+- Interface and packaging: A Tkinter GUI handles file selection and displays status; the .spec file and dist\UserRightScan.exe indicate it’s packaged as a standalone Windows executable. The notebook contains an earlier version and a copy of the current script.
